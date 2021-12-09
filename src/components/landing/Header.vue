@@ -144,24 +144,26 @@ header .wrapper {
 .showoff .s-off1 {
     position: absolute;
     top: -80px;
-    /* animation-name: inf_show1;
+    animation-name: inf_show1;
     animation-timing-function: ease-in;
-    animation-duration: 10s;
-    animation-fill-mode: linear;  
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards; 
+    animation-delay: .5s; 
     animation-iteration-count: infinite;
-    transition: 1s ease-in; */
+    /* transition: 1s ease-in; */
 }
 .showoff .s-off2 {
     z-index: 99;
     position: absolute;
     right: -150px;
     top: 30px;
-    /* animation-name: inf_show2;
+    animation-name: inf_show2;
     animation-timing-function: ease-in;
-    animation-duration: 10s;
-    animation-fill-mode: linear;  
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards; 
+    animation-delay: 1s;  
     animation-iteration-count: infinite;
-    transition: 1s ease-in; */
+    /* transition: 1s ease-in; */
 }
 
 </style>
