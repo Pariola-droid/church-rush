@@ -20,7 +20,7 @@
 
             <modal ref="modalName">
                 <template v-slot:header>
-                    <h1>Modal title</h1>
+                    
                 </template>
 
                 <template v-slot:body>
@@ -28,10 +28,10 @@
                 </template>
 
                 <template v-slot:footer>
-                    <div class="d-flex align-items-center justify-content-between">
+                    <!-- <div class="d-flex align-items-center justify-content-between">
                     <button class="btn btn--secondary" @click="$refs.modalName.closeModal()">Cancel</button>
                     <button class="btn btn--primary" @click="$refs.modalName.closeModal()">Save</button>
-                    </div>
+                    </div> -->
                 </template>
             </modal>
       </div>    

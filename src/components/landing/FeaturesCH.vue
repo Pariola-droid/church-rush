@@ -9,7 +9,7 @@
 
             <div class="content">
                 <h1>
-                    As a Church
+                    As a<br/> Church
                 </h1>
 
                 <p>
