@@ -6,7 +6,7 @@
             </div>
 
             <div class="brand">
-                © 2020 Regnify.  All rights reserved
+                © 2020 <a href="https://regnify.com">Regnify.</a>  All rights reserved
             </div>
 
             <ul class="social">
@@ -83,6 +83,10 @@ footer .wrapper {
     font-size: 14px;
     line-height: 24px;
     color: #D9DBE1
+}
+
+.wrapper .brand a {
+    color: #D9DBE1;
 }
 
 .wrapper .social {
