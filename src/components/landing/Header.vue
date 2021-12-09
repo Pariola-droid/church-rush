@@ -8,7 +8,7 @@
                 <p>
                     A safe place to grow up in faith, have an encounter with God, find your community and fufill your purpose. Would you like us to notify you when we launch?
                 </p>
-                <button>
+                <button @click="$refs.modalName.openModal()">
                     keep me in the loop
                 </button>
             </div> 
@@ -17,18 +17,36 @@
                 <img class="s-off1" :src="require('../../assets/show-off1.png')" alt="church rush show off - app"/>
                 <img class="s-off2" :src="require('../../assets/show-off2.png')" alt="church rush show off - app"/>
             </div> 
+
+            <modal ref="modalName">
+                <template v-slot:header>
+                    <h1>Modal title</h1>
+                </template>
+
+                <template v-slot:body>
+                   
+                </template>
+
+                <template v-slot:footer>
+                    <div class="d-flex align-items-center justify-content-between">
+                    <button class="btn btn--secondary" @click="$refs.modalName.closeModal()">Cancel</button>
+                    <button class="btn btn--primary" @click="$refs.modalName.closeModal()">Save</button>
+                    </div>
+                </template>
+            </modal>
       </div>    
   </header>
 </template>
 
 <script>
-// import logo from '../../assets/logo.png'
-// export default {
-//   name: 'HelloWorld',
-//   props: {
-//     msg: String
-//   }
-// }
+import Modal from "../general/Modal.vue";
+
+export default {
+//   name: "App",
+  components: {
+    Modal
+  }
+};
 
 </script>
 

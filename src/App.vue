@@ -67,6 +67,10 @@ export default {
 
   }
 
+  .overflow-hidden {
+    overflow: hidden;
+  }
+
   input[type=number]::-webkit-inner-spin-button {
     opacity: 0;
     display: none;
