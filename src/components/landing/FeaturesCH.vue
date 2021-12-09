@@ -9,7 +9,7 @@
 
             <div class="content">
                 <h1>
-                    Features for Churches
+                    As a Church
                 </h1>
 
                 <p>

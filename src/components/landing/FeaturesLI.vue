@@ -3,7 +3,7 @@
       <div class="wrapper">        
             <div class="content">
                 <h1>
-                    Features for Listeners
+                    As a Listener
                 </h1>
 
                 <p>
