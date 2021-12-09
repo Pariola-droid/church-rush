@@ -29,10 +29,30 @@
 //     msg: String
 //   }
 // }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+@keyframes inf_show1 {
+    0% {
+        top: -70px;
+    }
+
+    100% {
+        top: -80px;
+    }
+}
+@keyframes inf_show2 {
+    0% {
+        top: 20px;
+    }
+
+    100% {
+        top: 30px;
+    }
+}
 
 header {
     height: fit-content;
@@ -124,12 +144,24 @@ header .wrapper {
 .showoff .s-off1 {
     position: absolute;
     top: -80px;
+    /* animation-name: inf_show1;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+    animation-fill-mode: linear;  
+    animation-iteration-count: infinite;
+    transition: 1s ease-in; */
 }
 .showoff .s-off2 {
     z-index: 99;
     position: absolute;
     right: -150px;
     top: 30px;
+    /* animation-name: inf_show2;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+    animation-fill-mode: linear;  
+    animation-iteration-count: infinite;
+    transition: 1s ease-in; */
 }
 
 </style>

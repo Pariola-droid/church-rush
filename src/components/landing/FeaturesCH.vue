@@ -3,7 +3,7 @@
       <div class="wrapper">
             <div class="display">
                 <div class="inner">
-                    <img :src="require('../../assets/display1.png')" alt="church rush for churches"/>
+                    <img data-aos="fade-up" data-aos-duration="3000" :src="require('../../assets/display1.png')" alt="church rush for churches"/>
                 </div> 
             </div> 
 
@@ -49,6 +49,7 @@
 //     msg: String
 //   }
 // }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

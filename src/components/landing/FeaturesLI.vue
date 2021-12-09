@@ -40,7 +40,7 @@
 
             <div class="display">
                 <div class="inner">
-                    <img :src="require('../../assets/display2.png')" alt="church rush for listeners"/>
+                    <img data-aos="fade-up" data-aos-duration="3000" :src="require('../../assets/display2.png')" alt="church rush for listeners"/>
                 </div> 
             </div> 
       </div>    

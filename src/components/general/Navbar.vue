@@ -27,15 +27,25 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+@keyframes nav_nime {
+    to {
+        top: 0;
+    }
+}
+
 nav {
     height: 100px;
     width: 100%;
     position: absolute;
-    top: 0;
+    top: -100px;
     left: 0;
     display: grid;
     place-items: center;
     z-index: 99999;
+    animation-name: nav_nime;
+    animation-timing-function: ease-in;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;  
 }
 
 nav .nav_wrap {
