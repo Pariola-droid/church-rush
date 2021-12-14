@@ -6,7 +6,7 @@
                     Church Rising Up, Serving Him
                 </h1>
                 <p>
-                    A safe place to grow up in faith, have an encounter with God, find your community and fufill your purpose. Would you like us to notify you when we launch?
+                    A safe place to grow in faith, have an encounter with God, find your community and fufill your purpose. Would you like us to notify you when we launch?
                 </p>
                 <button @click="$refs.modalName.openModal()">
                     keep me in the loop
