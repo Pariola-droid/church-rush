@@ -40,8 +40,19 @@
     
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-     <!-- <script>
-        AOS.init();
-    </script> -->
+      <!-- <Script
+        strategy='lazyOnload'
+        src={`https://www.googletagmanager.com/gtag/js?id=UA-144569419-1`}
+      /> -->
+      <Script id='ga-analytics'>
+        {
+          `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)}
+            gtag('js', new Date());
+            gtag('config', 'UA-144569419-1');
+          `
+        }
+      </Script>
   </body>
 </html>
