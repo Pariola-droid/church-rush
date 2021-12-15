@@ -9,7 +9,7 @@
                     A safe place to grow in faith, have an encounter with God, find your community and fufill your purpose. Would you like us to notify you when we launch?
                 </p>
                 <button @click="$refs.modalName.openModal()">
-                    keep me in the loop
+                    Keep me in the loop
                 </button>
             </div> 
 
