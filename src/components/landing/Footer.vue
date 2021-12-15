@@ -75,6 +75,7 @@ footer .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .wrapper .brand {
@@ -96,9 +97,46 @@ footer .wrapper {
     margin: 0 16px;
 }
 .wrapper .social li {
-    margin: 0 16px;
+    margin-left: 16px;
 }
 
+
+/* Responsiveness */
+
+/* 600px */
+
+@media (max-width:600px) {
+
+    footer .wrapper {
+        height: fit-content;
+        width: 88%;
+        padding: 32px 20px;
+        justify-content: center;
+    }
+
+    .wrapper .logo {
+        display: block;
+    }
+
+    .wrapper .brand {
+        display: block;
+        margin: 24px 0;
+    }
+
+    .wrapper .social {
+        justify-content: center;
+    }
+
+    .wrapper .social li {
+        margin: 0 16px;
+    }
+
+    .wrapper .social li a svg {
+        height: 32px;
+        width: 32px;
+    }
+
+}
 
 
 

@@ -184,4 +184,33 @@ header .wrapper {
     /* transition: 1s ease-in; */
 }
 
+
+/* Responsiveness */
+
+/* 600px */
+
+@media (max-width:600px) {
+
+    header .wrapper {
+        height: fit-content;
+        width: 88%;
+        margin-top: 120px;
+        margin-bottom: 150px;
+    }
+    .wrapper .content {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wrapper .content h1 {
+        height: fit-content;
+        max-width: 297px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 98px;
+        text-align: center;
+    }
+}
+
+
 </style>

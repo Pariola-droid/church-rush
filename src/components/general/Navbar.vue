@@ -10,6 +10,12 @@
             <li>Roadmap</li>
             <li>Contact us</li>
         </ul>
+
+        <div class="hmb">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 18V20H5V18H16ZM21 11V13H3V11H21ZM19 4V6H8V4H19Z" fill="#FAFAFA"/>
+            </svg>
+        </div>
       </div>   
   </nav>
 </template>
@@ -61,6 +67,11 @@ nav .nav_wrap {
 
 }
 
+.nav_wrap .hmb {
+  display: none;
+  cursor: pointer;
+}
+
 .nav_wrap .list {
   display: flex;
   align-items: center;
@@ -75,6 +86,25 @@ nav .nav_wrap {
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
+}
+
+/* Responsiveness */
+
+/* 600px */
+
+@media (max-width:600px) {
+
+  nav .nav_wrap {
+      width: 88%;
+  }
+
+  .nav_wrap .hmb {
+    display: initial;
+  }
+
+  .nav_wrap .list {
+    display: none;
+  }
 }
 
 
