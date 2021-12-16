@@ -167,8 +167,7 @@
 
     .featuresCH .wrapper {
         width: 88%;
-        margin-top: 80px;
-        margin-bottom: 80px;
+        margin-bottom: 30px;
         justify-content: center;  
         flex-direction: column-reverse;  
     }
@@ -221,10 +220,6 @@
         justify-content: center;
         font-weight: 500;
         text-align: center;
-    }
-
-    .content .list li svg{
-        margin-right: 8px;
     }
 
     .content .list li:not(:last-of-type){
