@@ -71,7 +71,8 @@
     margin-bottom: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-between;    
+    justify-content: space-between;  
+    flex-wrap: wrap;  
 }
 
 
@@ -155,6 +156,81 @@
 
 .content .list li:not(:last-of-type){
     margin-bottom: 40px;
+}
+
+
+/* Responsiveness */
+
+/* 600px */
+
+@media (max-width:600px) {
+
+    .featuresCH .wrapper {
+        width: 88%;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        justify-content: center;  
+        flex-direction: column-reverse;  
+    }
+
+    /* showoff */
+    
+    .wrapper .display {
+        height: 260px;
+        width: 260px;
+        margin-top: 40px;
+        /* background: rgba(100, 25, 161, 0.2); */
+    }
+
+    .display .inner {
+        height: 235px;
+        width: 235px;
+    }
+
+    .display .inner img {
+        transform: scale(.48);
+    }
+
+    /* content */
+
+    .wrapper .content {
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .content h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 1.5;
+    }
+
+    .content p {
+        text-align: center;
+        max-width: 280px;
+        font-size: 14px;
+        line-height: 28px;
+        font-weight: 400;
+    }
+
+
+    .content .list li{
+        font-size: 14px;
+        line-height: 32px;
+        justify-content: center;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .content .list li svg{
+        margin-right: 8px;
+    }
+
+    .content .list li:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+
 }
 
 
