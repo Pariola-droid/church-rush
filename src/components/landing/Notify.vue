@@ -85,6 +85,37 @@
 }
 
 
+/* Responsiveness */
+
+/* 600px */
+
+@media (max-width:600px) {
+
+    .notify .wrapper {
+        width: 100%;
+        padding: 32px 20px;
+    }
+
+    .wrapper .content h1 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 34px;
+        margin: 24px 0px;
+    }
+
+    .wrapper .content button {
+        border-radius: 12px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #311747;
+        padding: 8px 24px;
+        width: 162px;
+        height: 48px;
+    }
+
+}
+
 
 
 </style>
