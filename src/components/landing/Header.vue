@@ -53,7 +53,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-@keyframes inf_show1 {
+/* @keyframes inf_show1 {
     0% {
         top: -70px;
     }
@@ -61,8 +61,8 @@ export default {
     100% {
         top: -80px;
     }
-}
-@keyframes inf_show2 {
+} */
+/* @keyframes inf_show2 {
     0% {
         top: 20px;
     }
@@ -70,7 +70,7 @@ export default {
     100% {
         top: 30px;
     }
-}
+} */
 
 header {
     height: fit-content;
@@ -90,6 +90,7 @@ header .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* content */
@@ -195,7 +196,8 @@ header .wrapper {
         height: fit-content;
         width: 88%;
         margin-top: 120px;
-        margin-bottom: 150px;
+        margin-bottom: 60px;
+        justify-content: center;
     }
     .wrapper .content {
         align-items: center;
@@ -203,12 +205,45 @@ header .wrapper {
     }
 
     .wrapper .content h1 {
-        height: fit-content;
         max-width: 297px;
         font-weight: 700;
         font-size: 32px;
-        line-height: 98px;
+        line-height: 1.6;
         text-align: center;
+    }
+
+    .wrapper .content p {
+        max-width: 270px;
+        font-size: 14px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .wrapper .content button {
+        padding: 8px 40px;
+        height: 58px;
+        background: #FFCC00;
+        border-radius: 12px;
+        font-size: 14px;
+        margin-top: 32px;
+    }
+
+    .wrapper .showoff {
+        height: 350px;
+        width: 300px;
+        display: flex;
+        /* background-color: #fff; */
+        margin-top: 50px;
+    }
+
+    .showoff .s-off1 {
+       top: 0px;
+       height: 300px;
+    }
+    .showoff .s-off2 {
+        height: 300px;
+        right: 26px;
+        top: 48px;
     }
 }
 
