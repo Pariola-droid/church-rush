@@ -136,8 +136,9 @@
     align-items: flex-start;
     justify-content: center;
     flex-direction: column; 
-    width: 92%;
+    width: 100%;
     height: fit-content;
+    padding-bottom: 2rem;
 }
 
 .wrapper .head {
@@ -156,7 +157,7 @@
 }
 
 .wrapper .head p {
-    max-width: 400px;
+    max-width: 350px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
