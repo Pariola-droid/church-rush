@@ -289,6 +289,14 @@
    margin-left: auto;
 }
 
+/* Responsiveness */
 
+/* 600px */
+
+@media (max-width:600px) {
+    .roadmap {
+        display: none;
+    }
+}
 
 </style>

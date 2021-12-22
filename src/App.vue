@@ -6,6 +6,7 @@
       <FeaturesCH />
       <FeaturesLI />
       <Roadmap />
+      <RoadMobile />
       <Notify />
     </main>
     <Footer />
@@ -18,6 +19,7 @@ import Header from './components/landing/Header.vue'
 import FeaturesCH from './components/landing/FeaturesCH.vue'
 import FeaturesLI from './components/landing/FeaturesLI.vue'
 import Roadmap from './components/landing/Roadmap.vue'
+import RoadMobile from './components/landing/RoadMobile.vue'
 import Notify from './components/landing/Notify.vue'
 import Footer from './components/landing/Footer.vue'
 
@@ -29,6 +31,7 @@ export default {
     FeaturesCH,
     FeaturesLI,
     Roadmap,
+    RoadMobile,
     Notify,
     Footer
   }
