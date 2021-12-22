@@ -201,6 +201,35 @@ export default {
  } 
 
 
+
+/* Responsiveness */
+
+/* 600px */
+
+@media (max-width:600px) {
+
+    .modal .modal__dialog {
+      padding: 32px 35px;
+      max-width: 320px;
+      min-height: 450px;
+    }
+
+
+    .modal__dialog  .modal__footer {
+        flex-wrap: wrap;
+    }
+
+    .modal__dialog  .modal__footer button {
+      display: block;
+    }
+
+    .modal__dialog  .modal__footer .ind {
+      margin-bottom: 16px;
+    }
+
+}
+
+
 /* 
 
 //   &__close {
