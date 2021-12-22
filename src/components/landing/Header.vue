@@ -174,7 +174,7 @@ header .wrapper {
 .showoff .s-off2 {
     z-index: 99;
     position: absolute;
-    right: -150px;
+    right: -270px;
     top: 30px;
     animation-name: inf_show2;
     animation-timing-function: ease-in;
@@ -242,7 +242,7 @@ header .wrapper {
     }
     .showoff .s-off2 {
         height: 300px;
-        right: 26px;
+        right: -22px;
         top: 48px;
     }
 }
